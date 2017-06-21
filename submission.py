@@ -31,7 +31,7 @@ def main():
         # print scipy.signal.medfilt(s_pred, [19])
         # print
         # s_preds[i] = scipy.signal.medfilt(s_pred, [19]).astype("int32")
-        s_preds[i] = modefilter(s_pred, 35).astype("int32")
+        s_preds[i] = modefilter(s_pred, 37).astype("int32")
         # print s_pred
         # print s_preds[i]
         # print

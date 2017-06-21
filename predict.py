@@ -12,7 +12,7 @@ import argparse
 from glob import glob
 from collections import OrderedDict
 from time import time, strftime, localtime
-from sklearn.metrics import jaccard_similarity_score
+# from sklearn.metrics import jaccard_similarity_score
 
 from utils.traintools import detect_nans, TrainLogger, plot_progress, print_model, stopwatch
 from utils import TRAIN, VALID, secs_to_str
