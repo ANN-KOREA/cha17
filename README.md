@@ -2,11 +2,12 @@
 * 8GB GPU for training. 4GB GPU for evaluation.
 * CUDA & Nvidia driver (download & install: https://developer.nvidia.com/cuda-downloads)
 * CuDNN (download & install: https://developer.nvidia.com/cudnn)
-* Prerequisites (```sudo apt-get install -y gcc g++ gfortran build-essential git wget libopenblas-dev python-dev python-pip python-nose python-numpy python-scipy  fmpeg```)
+* Prerequisites (```sudo apt-get install -y gcc g++ gfortran build-essential git wget libopenblas-dev python-dev python-pip python-nose python-numpy python-scipy x264 ffmpeg```)
 * Theano (```sudo pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git@5159a6b3cc2875f90e86449e5b3914f7bcb76452```)
 * Lasagne (```sudo pip install --upgrade --no-deps git+git://github.com/Lasagne/Lasagne.git```)
 * bcolz (```sudo pip install bcolz```)
 * moviepy (```sudo pip install moviepy```)
+* OpenCV (install: https://github.com/jayrambhia/Install-OpenCV)
 
 # Setup paths
 Set your custom paths in ```paths.py```.
